@@ -1,0 +1,124 @@
+
+.section{
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+     padding: 0 30px;
+     opacity: 1;
+}
+.padd{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.shadowdark{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+}
+.sectionTitle{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+
+}
+.sectionTitle h2{
+    font-size: 40px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    position: relative;
+
+}
+.sectionTitle h2::before{
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: var(--skin-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+.sectionTitle h2::after{
+    content: "";
+    width: 25px;
+    height: 4px;
+    background-color: var(--skin-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+.portfolio .container{
+    padding-bottom: 40px;
+
+
+}
+
+.portfolio .portfolioHeading{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+
+}
+.portfolio .portfolioHeading h2{
+    color: var(--text-black-900);
+    font-weight: 500;
+
+}
+.portfolio .portfolioItem{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+
+}
+.portfolio .portfolioItemInner{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.portfolio .portfolioItemInner .portfolioImg{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .portfolioItemInner .portfolioImg div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: #393939b7;
+    color: wheat;
+    font-size: 40px;
+}
+.portfolio .portfolioItemInner .portfolioImg img{
+     width: 100%;
+     height: 200px;
+    display: block;
+    position: absolute;
+    
+
+}

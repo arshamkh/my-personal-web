@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+    --skin-color:#ec1839;
+    --skin-color:#fa5b0f;
+    --skin-color:#37b182;
+    --skin-color:#1854b4;
+    --skin-color:#f021b2;
+
+}
+
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+     padding: 0 30px;
+     opacity: 1;
+     padding-top: 150px;
+}
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+.homeInfo p{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
+}
+.padd{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h3.hello{
+    font-size: 28px;
+    margin: 15px 0;
+}
+h3.hello span{
+    font-family: 'Clicker Script' , cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+h3.myProfession{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.typing{
+    color: var(--skin-color);
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    background: var(--skin-color);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    display: inline-block;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    border: none;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.homeInfo{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+h3.hello{
+    font-size: 28px;
+    margin: 15px 0;
+}
+h3.hello span{
+    font-family: 'Clicker Script' , cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+.myProfession{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.typing{
+    color: var(--skin-color);
+}
+.homeInfo p{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
+}
+.homeImg{
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
+.homeImg::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    width: 80px;
+    height: 80px;
+    right: -20px;
+    bottom: -40px;
+}
+.homeImg::before{
+    content: "";
+    position: absolute;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    width: 80px;
+    height: 80px;
+    left: -20px;
+    top: -40px;
+}
+.homeImg img{
+    margin: auto;
+    border-radius: 5px;
+    height: 400px;
+}
+
+
+.hireMe {
+    background-color:  var(--primary-color);
+}
